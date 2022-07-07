@@ -38,7 +38,13 @@ input{
     text-align: center;
 }
 
-#calculate{
+.btn-space {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.btn{
     background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
     color: white;
     border: none;
@@ -50,7 +56,7 @@ input{
     transition: all 0.3s linear;
 }
 
-#calculate:hover {
+.btn:hover {
     color: black;
     background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
