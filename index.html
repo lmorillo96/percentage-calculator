@@ -10,16 +10,19 @@
   <body>
     <main>
       <h1><span id="tip-word">Tip</span> Calculator</h1>
-      <div id="calculator">
-        <label>Bill Amount:</label><input id="bill-amount" /><br />
-        <label>Percentage Tip:</label><input id="percentage-tip" /><br />
-        <label>Tip Amount:</label><input id="tip-amount" disabled /><br />
-        <label>Total:</label><input id="total" disabled /><br />
-        <div class="btn-space">
+      <form id="tCalculator">
+        <div id="calculator">
+          <label>Bill Amount:</label><input id="bill-amount" /><br />
+          <label>Percentage Tip:</label><input id="percentage-tip" /><br />
+          <label>Tip Amount:</label><input id="tip-amount" disabled /><br />
+          <label>Total Increase:</label><input id="total+" disabled /><br />
+          <label>Total Discount:</label><input id="total-" disabled /><br />
+          <div class="btn-space">
             <button class="btn" id="calculate">Calculate</button>
             <button class="btn" id="reset">Reset</button>
+          </div>
         </div>
-      </div>
+      </form>
     </main>
 
     <script src="script.js"></script>
