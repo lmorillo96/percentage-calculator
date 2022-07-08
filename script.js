@@ -7,11 +7,11 @@ let calculate = document.getElementById("calculate");
 let reset = document.getElementById("reset");
 let myForm = document.getElementById("tCalculator");
 
-calculate.addEventListener("click", () => {
+calculate.addEventListener("click", (e) => {
   billAmount = Number(billAmount.value);
   percentTip = Number(percentTip.value);
 
-  event.preventDefault();
+  e.preventDefault();
   calculateAmount();
 });
 
